@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Team Shell</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="./index.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='./libs/bootstrap4/css/bootstrap.min.css'>
+    <script src="./libs/jQuery/jquery-3.5.1.min.js"></script>
+    <script src="./libs/bootstrap4/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="custom-container flex-between">
+            <div class="header-logo">
+                <img src="./icons/logo.svg" alt="logo">
+                <h3>TeamShell</h3>
+            </div>
+            <nav class="flex-between">
+                <ul class="flex-between">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How it works</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="docs">Docs</a></li>
+                    <li><a href="#download">Download</a></li>
+                </ul>
+                <button class="btt-gr">TRY BETA</button>
+            </nav>
+        </div>
+    </header>
+    <section class="checkpoint">
+        <div class="custom-container flex-between">
+            <div class="left-side">
+                <h1>Effortlessly managing remote shell access for your team</h1>
+                <h4><span>Simple and friendly</span> <br> zero trust security system</h4>
+            </div>
+            <div class="right-side">
+                <img src="./images/checkpoint.png" alt="checkpoint">
+            </div>
+        </div>
+    </section>
+    <section class="access-control" id="features">
+        <h2>Features</h2>
+        <div class="custom-container flex-between">
+            <div class="left-side">
+                <img src="./images/access-control.png" alt="access-control">
+            </div>
+            <div class="right-side">
+                <div class="text-center">
+                    <img src="./icons/block.svg" alt="block">
+                </div>
+                <h3>Flexible access control without SSH keys</h3>
+                <p>Every team member get SSO to with Two-Factor Authentication to access multiple remote servers according to access right (RBAC)</p>
+                <p>PAM compatible (LDAP/Kerberos etc)</p>
+            </div>
+        </div>
+    </section>
+    <section class="activity-record">
+        <div class="custom-container flex-between">
+            <div class="left-side">
+                <img src="./icons/book.svg" alt="book">
+                <h3>Users activity record</h3>
+                <p>All team activity in shell recorded. Encrypted session logs store securely and available to view in a Admin's app</p>
+            </div>
+            <div class="right-side flex-between">
+                <img src="./gifs/user-activity.gif" alt="user-activity">
+            </div>
+        </div>
+    </section>
+    <section class="synced-data">
+        <div class="custom-container flex-between">
+            <div class="left-side">
+                <img src="./images/synced-data.png" alt="synced-data">
+            </div>
+            <div class="right-side">
+                <div class="text-center">
+                    <img src="./icons/data-sync.svg" alt="data-sync">
+                </div>
+                <h3>Synced data on <span>any of your devices</span></h3>
+                <p>Single TUI startpage you see on all of your devices provides you access to all of your hosts, current connections, session logs. Just connect to single host and resume your work quicly from any device.</p>
+                <span class="with-play-icon">See how it works</span>
+            </div>
+        </div>
+    </section>
+    <section class="gui-app">
+        <div class="custom-container flex-between">
+            <div class="left-side">
+                <div class="text-center">
+                    <img src="./icons/gui-app.svg" alt="gui-app">
+                    <h3>GUI app</h3>
+                </div>
+                <ul>
+                    <li class="with-play-icon">Manage user list</li>
+                    <li class="with-play-icon">Manage host list for team</li>
+                    <li class="with-play-icon">Set access rights (RBAC) </li>
+                    <li class="with-play-icon">View user session logs </li>
+                    <li class="with-play-icon">View user’s terminal screen real time</li>
+                    <li class="with-play-icon">Use built-in terminal</li>
+                    <li class="with-play-icon">Buil-in file manager</li>
+                </ul>
+            </div>
+            <div class="right-side">
+              
+            </div>
+        </div>
+    </section>
+    <section class="how-it-works" id="how-it-works">
+        <h2>How it works</h2>
+        <div class="custom-container flex-between">
+            <div class="left-side">
+                <img src="./images/how-it-works.png" alt="how-it-works">
+            </div>
+            <div class="right-side">
+                <div class="title">
+                    <h4>Stack</h4>
+                    <p>Central server and Nodes:<span> Go lang </span></p>
+                    <p>Administrator’s app: <span>Qt (C++) </span></p>
+                </div>
+                <div class="cards">
+                    <div class="card-item">
+                        <img src="./icons/cluster.svg" alt="cluster">
+                        <p>Install to your host in 15 minutes (k8s cluster)</p>
+                    </div>
+                    <div class="card-item">
+                        <img src="./icons/server.svg" alt="server">
+                        <p>For a central server, a clustered solution is possible</p>
+                    </div>
+                    <div class="card-item">
+                        <img src="./icons/agent.svg" alt="agent">
+                        <p>Agentless (no third-party endpoint software)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="faq" id="faq">
+        <div class="custom-container flex-between">
+            <h2>FAQ</h2>
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                How much safer is this compared to SSH keys?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                What protocols do you use?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Bla bla bla?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ask-bar">
+                <span>Do you have a question?</span>
+                <button class="btt-gr">ASK</button>
+            </div>
+        </div>
+    </section>
+    <section class="pricing" id="pricing">
+        <div class="custom-container flex-between">
+            <h2>Pricing</h2>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <td scope="col">Options</td>
+                        <th scope="col">Startup</th>
+                        <th scope="col">Business</th>
+                        <th scope="col">Enterprise</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Straight SSH access</th>
+                        <td>No</td>
+                        <td>Yes</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Session logs</th>
+                        <td>3 last sessions</td>
+                        <td>All team sessions</td>
+                        <td>All team sessions</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Users</th>
+                        <td>5</td>
+                        <td>30</td>
+                        <td>No limits</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Nodes</th>
+                        <td>1</td>
+                        <td>5</td>
+                        <td>No limits</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Hosts</th>
+                        <td>10</td>
+                        <td>200</td>
+                        <td>No limits</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2FA</th>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">LDAP integration</th>
+                        <td>No</td>
+                        <td>No</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Cluster Central cerver</th>
+                        <td>No</td>
+                        <td>No</td>
+                        <td>Yes</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="table-footer">
+                <p>Sales will begin soon.<a href=""> Subscribe </a> for latest news or <a href="">request for free beta version</a></p>
+            </div>
+        </div>
+    </section>
+    <section class="beta" id="download">
+        <div class="custom-container flex-between">
+            <h2>Download beta</h2>
+            <p>You can use easily <b>cloud version</b> right now. <a href=""> Download app</a></p>
+            <div class="form-group">
+                <p class="form-title">To get <b>hosted version</b> please shortly tell us about your business and we’ll send you a link</p>
+                <form>
+                    <div class="flex-between">
+                        <span>Your name *</span> <input type="text">    
+                    </div>
+                    <div class="flex-between">
+                        <span>Your email *</span> <input type="text">    
+                    </div>
+                    <div class="flex-between">
+                        <span>Your company’s website *</span> <input type="text">    
+                    </div>
+                    <input type="submit" class="btt-gr" value="SEND">
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="custom-container flex-between">
+            <div class="footer-logo">
+                <a href="#header" class="flex-between">
+                    <img src="./icons/logo-dark.svg" alt="logo">
+                    <h3>Team Shell</h3>
+                </a>
+            </div>
+            <div class="footer-nav">
+                <nav class="flex-between">
+                    <ul class="flex-between">
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#how-it-works">How it works</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#docs">Docs</a></li>
+                        <li><a href="#download">Download</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-contact">
+                <a href="">Contact us</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
