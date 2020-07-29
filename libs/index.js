@@ -19,7 +19,6 @@ if (ua.indexOf('safari') != -1) {
     }
 }
 
-
 $(document).ready(function (){
     setTimeout(function () {
         let videos = document.getElementsByTagName("video");

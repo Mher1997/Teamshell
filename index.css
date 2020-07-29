@@ -160,6 +160,9 @@ p {
   display: table;
   cursor: pointer;
 }
+.with-play-icon.safary-icon {
+  transition-duration: 0s !important;
+}
 .with-play-icon.safary-icon:hover::after {
   background-image: url(./icons/play-blue.svg) !important;
   background-size: 24px !important;
@@ -181,13 +184,8 @@ p {
 .with-play-icon:hover::after {
   background-image: url(./icons/play-blue.svg);
   transition-duration: 0.2s;
-  -webkit-transition-duration: 0.2s;
-  -moz-transition-duration: 0.2s;
-  -o-transition-duration: 0.2s;
   background-size: 30px;
   width: 32px;
-  max-width: 32px;
-  max-height: 30px;
   height: 30px;
   right: -45px;
   top: 60%;
@@ -1106,11 +1104,16 @@ footer .footer-contact a:hover {
   .with-play-icon {
     font-size: 12px !important;
   }
+  .with-play-icon.safary-icon {
+    transition-duration: 0 !important;
+  }
   .with-play-icon.safary-icon:hover::after {
     width: 22px !important;
     height: 18px !important;
     background-size: 20px !important;
     top: 62% !important;
+    margin-left: 10px !important;
+    margin-top: 2px !important;
   }
   .with-play-icon::after {
     width: 22px;
@@ -1232,6 +1235,9 @@ footer .footer-contact a:hover {
   }
   .synced-data .custom-container .right-side > span::after {
     margin-right: 40px;
+  }
+  .synced-data .custom-container .right-side > span.safary-icon:hover::after {
+    margin-top: 0 !important;
   }
   .gui-app {
     padding-top: 23px;
