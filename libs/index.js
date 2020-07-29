@@ -11,12 +11,14 @@ $('#mobile-nav').click(function () {
 })
 
 const ua = navigator.userAgent.toLowerCase(); 
-console.log(ua)
 if (ua.indexOf('safari') != -1) { 
     if (ua.indexOf('chrome') == -1) {
-        
+        $('.with-play-icon').each(function () {
+            $(this).addClass('safary-icon');
+        })
     }
 }
+
 
 $(document).ready(function (){
     setTimeout(function () {
