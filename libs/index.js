@@ -11,8 +11,9 @@ $('#mobile-nav').click(function () {
 })
 
 $(document).ready(function (){
-    let videos = document.getElementsByTagName("video");
-    for (let index = 0; index < videos.length; index++) {
-        $(videos[index])[0].play();
-    }
+    // let videos = document.getElementsByTagName("video");
+    // for (let index = 0; index < videos.length; index++) {
+    //     $(videos[index])[0].play();
+    // }
+    $("video[autoplay]").each(function(){ this.play(); });
 })
