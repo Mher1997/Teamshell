@@ -10,6 +10,14 @@ $('#mobile-nav').click(function () {
     $('#mobile-menu').css('display', 'none');
 })
 
+const ua = navigator.userAgent.toLowerCase(); 
+console.log(ua)
+if (ua.indexOf('safari') != -1) { 
+    if (ua.indexOf('chrome') == -1) {
+        
+    }
+}
+
 $(document).ready(function (){
     setTimeout(function () {
         let videos = document.getElementsByTagName("video");

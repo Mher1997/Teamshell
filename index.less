@@ -111,6 +111,17 @@ p{
             background-image: none;
         }
     }
+    &.safary-icon{
+        &:hover::after{
+            background-image: url(./icons/play-blue.svg) !important;
+            background-size: 24px !important;
+            width: 26px !important;
+            height: 20px !important;
+            right: -40px !important;
+            top: 50% !important;
+            transition-duration: 0s !important;
+        }
+    }
     &:hover::after{
         background-image: url(./icons/play-blue.svg);
         transition-duration: 0.2s;
@@ -118,11 +129,11 @@ p{
         -webkit-transition-duration: 0.2s;
         -moz-transition-duration: 0.2s;
         -o-transition-duration: 0.2s;
-        //  background-size: 30px;
-        // width: 32px;
-        // max-width: 32px;
-        // max-height: 30px;
-        // height: 30px;
+        background-size: 30px;
+        width: 32px;
+        max-width: 32px;
+        max-height: 30px;
+        height: 30px;
         right: -45px;
         top: 60%;
     }
@@ -1136,6 +1147,14 @@ footer{
     }
     .with-play-icon{
         font-size: 12px !important;
+        &.safary-icon{
+            &:hover::after{
+                width: 22px !important;
+                height: 18px !important;
+                background-size: 20px !important;
+                top: 62% !important;
+            }
+        }
         &::after{
             width: 22px;
             height: 18px;
