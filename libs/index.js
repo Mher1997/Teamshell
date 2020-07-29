@@ -13,6 +13,8 @@ $('#mobile-nav').click(function () {
 $(document).ready(function (){
     let videos = document.getElementsByTagName("video");
     for (let index = 0; index < videos.length; index++) {
-        videos[index].click()
+        setTimeout(()=>{
+            videos[index].play();
+        }, 5000);
     }
 })
