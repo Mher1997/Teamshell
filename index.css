@@ -1273,6 +1273,9 @@ footer .footer-contact a:hover {
     margin-top: 0px;
     background-size: 26px;
   }
+  .gui-app .custom-container .left-side ul > div li.safary-icon:hover::after {
+    margin-top: 2px !important;
+  }
   .how-it-works > h2 {
     padding: 35px 0 0px;
     margin-bottom: 10px;
