@@ -102,15 +102,7 @@ p{
     font-size: 18px;
     display: table;
     cursor: pointer;
-    &.icon-none{
-        cursor: unset;
-        &::after{
-            background-image: none;
-        }
-        &:hover::after{
-            background-image: none;
-        }
-    }
+    
     &.safary-icon{
         &:hover::after{
             background-image: url(./icons/play-blue.svg) !important;
@@ -120,6 +112,15 @@ p{
             right: -40px !important;
             top: 50% !important;
             transition-duration: 0s !important;
+        }
+    }
+    &.icon-none{
+        cursor: unset;
+        &::after{
+            background-image: none !important;
+        }
+        &:hover::after{
+            background-image: none !important; 
         }
     }
     &:hover::after{

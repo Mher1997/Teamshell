@@ -160,15 +160,6 @@ p {
   display: table;
   cursor: pointer;
 }
-.with-play-icon.icon-none {
-  cursor: unset;
-}
-.with-play-icon.icon-none::after {
-  background-image: none;
-}
-.with-play-icon.icon-none:hover::after {
-  background-image: none;
-}
 .with-play-icon.safary-icon:hover::after {
   background-image: url(./icons/play-blue.svg) !important;
   background-size: 24px !important;
@@ -177,6 +168,15 @@ p {
   right: -40px !important;
   top: 50% !important;
   transition-duration: 0s !important;
+}
+.with-play-icon.icon-none {
+  cursor: unset;
+}
+.with-play-icon.icon-none::after {
+  background-image: none !important;
+}
+.with-play-icon.icon-none:hover::after {
+  background-image: none !important;
 }
 .with-play-icon:hover::after {
   background-image: url(./icons/play-blue.svg);
