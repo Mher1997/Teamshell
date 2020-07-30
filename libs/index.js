@@ -19,11 +19,11 @@ if (ua.indexOf('safari') != -1) {
     }
 }
 
-// $(document).ready(function (){
-//     let videos = document.getElementsByTagName("video");
-//     for (let index = 0; index < videos.length; index++) {
-//         $(videos).click(function foo(){
-//             console.log(777)
-//         })
-//     }
-// })
+// $(document).ready(function () {
+//     setTimeout(function () {
+//         const videos = document.getElementsByTagName('video');
+//         for(let i=0; i<videos.length; i++){
+//             videos[i].play();
+//         }
+//     })
+// }, 1000);
