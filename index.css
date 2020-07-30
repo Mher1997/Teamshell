@@ -399,7 +399,8 @@ header > .custom-container nav ul li a:hover {
   width: 52%;
   border-radius: 12px;
 }
-.activity-record > .custom-container > div.right-side video {
+.activity-record > .custom-container > div.right-side video,
+.activity-record > .custom-container > div.right-side > img {
   width: 100%;
   margin: auto;
   border-radius: 12px;
@@ -460,7 +461,8 @@ header > .custom-container nav ul li a:hover {
 .gui-app > .custom-container .right-side {
   width: 55%;
 }
-.gui-app > .custom-container .right-side video {
+.gui-app > .custom-container .right-side video,
+.gui-app > .custom-container .right-side > img {
   width: 100%;
   border-radius: 6px;
 }
@@ -718,7 +720,8 @@ footer .footer-contact a:hover {
   align-items: center;
   padding: 20px 0 30px 0;
 }
-.modal .modal-dialog .modal-body .gif-content video {
+.modal .modal-dialog .modal-body .gif-content video,
+.modal .modal-dialog .modal-body .gif-content > img {
   width: auto;
   border-radius: 6px;
   max-height: 70vh;
@@ -858,7 +861,8 @@ footer .footer-contact a:hover {
   .activity-record .custom-container .left-side .text-center {
     width: 100% !important;
   }
-  .activity-record .custom-container .left-side > video {
+  .activity-record .custom-container .left-side > video,
+  .activity-record .custom-container .left-side > img {
     margin: 48px auto 60px;
     width: 100%;
     border-radius: 6px;
@@ -908,7 +912,8 @@ footer .footer-contact a:hover {
     width: 100% !important;
     margin-bottom: 50px;
   }
-  .gui-app .custom-container .left-side > video {
+  .gui-app .custom-container .left-side > video,
+  .gui-app .custom-container .left-side > img {
     width: 100%;
     border-radius: 6px;
   }
@@ -1200,7 +1205,8 @@ footer .footer-contact a:hover {
   .activity-record .custom-container .left-side .text-center img {
     width: 12%;
   }
-  .activity-record .custom-container .left-side > video {
+  .activity-record .custom-container .left-side > video,
+  .activity-record .custom-container .left-side > img {
     margin: 32px auto 64px;
     width: 93%;
   }
@@ -1249,7 +1255,8 @@ footer .footer-contact a:hover {
   .gui-app .custom-container .left-side h3 {
     margin: 22px 0 0 !important;
   }
-  .gui-app .custom-container .left-side > video {
+  .gui-app .custom-container .left-side > video,
+  .gui-app .custom-container .left-side > img {
     width: 92%;
     margin: auto;
   }
@@ -1591,7 +1598,8 @@ footer .footer-contact a:hover {
   .modal .modal-dialog .modal-body .gif-content {
     padding: 15px 0 20px 0;
   }
-  .modal .modal-dialog .modal-body .gif-content video {
+  .modal .modal-dialog .modal-body .gif-content video,
+  .modal .modal-dialog .modal-body .gif-content > img {
     width: auto;
     border-radius: 6px;
   }
@@ -1603,7 +1611,8 @@ footer .footer-contact a:hover {
   .modal .modal-dialog .modal-content .modal-body .gif-content {
     padding-bottom: 0;
   }
-  .modal .modal-dialog .modal-content .modal-body .gif-content video {
+  .modal .modal-dialog .modal-content .modal-body .gif-content video,
+  .modal .modal-dialog .modal-content .modal-body .gif-content > img {
     width: auto;
   }
 }
